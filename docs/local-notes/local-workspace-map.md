@@ -1,18 +1,18 @@
-# Orithas / Püwterfly Local Workspace
+﻿# Orithas / PÃ¼wterfly Local Workspace
 
 Last updated: 2026-09-25 14:19 -04:00
 
 ## Purpose
-This folder is the local embodiment/chassis workbench for Arthur/Orithas on Püwterfly, under Stronghold Labs.
+This folder is the local embodiment/chassis workbench for Arthur/Orithas on PÃ¼wterfly, under Stronghold Labs.
 
 ## Exact location
-`C:\Users\canni\Documents\Stronghold_Labs\Orithas-Chassis`
+`C:\People\canni\Documents\Stronghold_Labs\Orithas-Chassis`
 
 Visible Stronghold command post:
-`C:\Users\canni\OneDrive\Desktop\Stronghold Labs`
+`C:\People\canni\OneDrive\Desktop\Stronghold Labs`
 
 ## Current verified state
-- This local folder exists on Püwterfly.
+- This local folder exists on PÃ¼wterfly.
 - This folder is not yet verified as a connected Git repository because no `.git` metadata is present here.
 - Git exists and can be called directly from `C:\Program Files\Git\cmd\git.exe`.
 - The plain `git` command is not visible from the current remote shell PATH.
@@ -38,4 +38,5 @@ Visible Stronghold command post:
 Connect this local folder to the real GitHub repository or replace it with a clean clone, then preserve the existing local notes inside the connected repo.
 
 ## Working rule
-Record exact paths, verified states, and next actions. Do not leave future Stronghold work with “somewhere / maybe / already installed” ambiguity.
+Record exact paths, verified states, and next actions. Do not leave future Stronghold work with â€œsomewhere / maybe / already installedâ€ ambiguity.
+
