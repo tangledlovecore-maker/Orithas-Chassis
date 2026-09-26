@@ -1,0 +1,14 @@
+{
+  "name": "orithas-chassis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Orithas-Chassis embodiment continuity tools from Püwterfly.",
+  "scripts": {
+    "first-loop": "node tools/puewterfly_loop_test.js"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "latest",
+    "serialport": "latest"
+  }
+}

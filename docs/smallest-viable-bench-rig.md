@@ -15,7 +15,7 @@ Build one desktop actuator assembly with:
 - one controllable actuator
 - one position or force feedback source
 - one hard physical limit
-- one software safety stop
+- one software stop condition
 - one log file proving command and response
 
 ## Why This Comes First
@@ -30,7 +30,7 @@ It avoids premature full-body complexity while still proving the thing that matt
 2. Controller: Arduino-class board, Raspberry Pi Pico, ESP32, or similar.
 3. Feedback: encoder, potentiometer, current sensing, force sensor, or limit switch.
 4. Host link: USB serial first, network later.
-5. Safety: physical stop plus software stop before any live experiment.
+5. Stop condition: physical stop plus software stop before any live experiment.
 
 ## First Parts Bias
 
@@ -65,6 +65,5 @@ The milestone is complete when a script can:
 - unsupervised motion
 - anything without a physical stop
 
-## Next Concrete Action
+## Next Concrete Action`r`n`r`nDecision made: build the first embodiment loop documented in `docs/first-embodiment-loop.md`.`r`n`r`nNext implementation files:`r`n`r`n- `firmware/uno-r4-first-loop/uno-r4-first-loop.ino``r`n- `tools/puewterfly_loop_test.js``r`n- timestamped local logs from Püwterfly after the first physical test
 
-Create a parts decision table with three actuator/controller options and choose the first bench rig stack.
